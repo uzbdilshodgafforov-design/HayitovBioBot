@@ -1,14 +1,9 @@
 {
-  "name": "hayitovbiobot",
-  "version": "1.0.0",
-  "main": "server.js",
+  "name": "your-bot",
   "type": "module",
-  "scripts": {
-    "start": "node server.js"
-  },
   "dependencies": {
-    "node-telegram-bot-api": "^0.61.0",
-    "express": "^4.18.2",
-    "axios": "^1.2.2"
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "express": "^4.18.0"
   }
 }
